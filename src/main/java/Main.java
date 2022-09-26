@@ -36,6 +36,5 @@ public class Main {
                 primitiveAndWrapper.aDoubleType + "; " + primitiveAndWrapper.aFloatType + "; " +
                 primitiveAndWrapper.aCharType + primitiveAndWrapper.aBooleanType + "; " +
                 primitiveAndWrapper.aBoolean);
-
     }
 }

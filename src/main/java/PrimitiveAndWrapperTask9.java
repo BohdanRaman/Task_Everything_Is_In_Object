@@ -1,5 +1,4 @@
 public class PrimitiveAndWrapperTask9 {
-
     byte aByte;
     short aShort;
     int anInt;

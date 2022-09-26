@@ -6,7 +6,6 @@ import static java.sql.DriverManager.println;
  * @version 1.0
  * @since 26.09.2022
  */
-
 public class JavaDocClassTask16 {
     static class Tree {
         int height;  // field height
