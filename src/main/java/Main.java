@@ -1,12 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-
+        /* task 2*/
         HelloWorldTask2 helloWorld = new HelloWorldTask2();
 
+        /* task 1*/
         IntAndChatNotInitializedTask1 initialized = new IntAndChatNotInitializedTask1();
         initialized.a = 100;
         initialized.c = 'R';
 
+        /* task 9*/
         PrimitiveAndWrapperTask9 primitiveAndWrapper = new PrimitiveAndWrapperTask9();
         primitiveAndWrapper.aByte = -127;
         primitiveAndWrapper.aByteType = primitiveAndWrapper.aByte;
@@ -25,8 +27,13 @@ public class Main {
         primitiveAndWrapper.aBoolean = true;
         primitiveAndWrapper.aBooleanType = true;
 
-        SomethingClassTask8.createExemplar();
+        /* I don't understand, what I need doing in this task, task 8*/
         SomethingClassTask8 sct = new SomethingClassTask8();
+        SomethingClassTask8 sct1 = new SomethingClassTask8();
+        SomethingClassTask8 sct2 = new SomethingClassTask8();
+        SomethingClassTask8 sct3 = new SomethingClassTask8();
+
+
 
         System.out.println(helloWorld.s);
         System.out.println(initialized.a);
