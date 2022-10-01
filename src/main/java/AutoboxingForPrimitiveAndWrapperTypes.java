@@ -1,4 +1,9 @@
-public class PrimitiveAndWrapperTask9 {
+/**
+ * Write a program that demonstrates that autoboxing works for all the
+ * primitive types and their wrappers
+ */
+
+public class AutoboxingForPrimitiveAndWrapperTypes {
     byte aByte;
     short aShort;
     int anInt;

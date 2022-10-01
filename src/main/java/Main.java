@@ -1,15 +1,31 @@
+/**
+ * @author Raman Bohdan
+ * @version 1.0
+ * @since 26.09.2022
+ */
+
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
         /* task 2*/
-        HelloWorldTask2 helloWorld = new HelloWorldTask2();
+        PrintHelloWorld helloWorld = new PrintHelloWorld();
+        System.out.println(new Date());
 
         /* task 1*/
-        IntAndChatNotInitializedTask1 initialized = new IntAndChatNotInitializedTask1();
+        InitializedVariable initialized = new InitializedVariable();
         initialized.a = 100;
         initialized.c = 'R';
 
+        /* task 8*/
+        OnlyOneInstanceClass oneInstanceClass = new OnlyOneInstanceClass();
+        OnlyOneInstanceClass oneInstanceClass1 = new OnlyOneInstanceClass();
+        OnlyOneInstanceClass oneInstanceClass2 = new OnlyOneInstanceClass();
+        OnlyOneInstanceClass.number=10;
+        System.out.println(OnlyOneInstanceClass.number);
+
         /* task 9*/
-        PrimitiveAndWrapperTask9 primitiveAndWrapper = new PrimitiveAndWrapperTask9();
+        AutoboxingForPrimitiveAndWrapperTypes primitiveAndWrapper = new AutoboxingForPrimitiveAndWrapperTypes();
         primitiveAndWrapper.aByte = -127;
         primitiveAndWrapper.aByteType = primitiveAndWrapper.aByte;
         primitiveAndWrapper.aShort = 1000;
@@ -26,14 +42,6 @@ public class Main {
         primitiveAndWrapper.aCharType = primitiveAndWrapper.aChar;
         primitiveAndWrapper.aBoolean = true;
         primitiveAndWrapper.aBooleanType = true;
-
-        /* I don't understand, what I need doing in this task, task 8*/
-        SomethingClassTask8 sct = new SomethingClassTask8();
-        SomethingClassTask8 sct1 = new SomethingClassTask8();
-        SomethingClassTask8 sct2 = new SomethingClassTask8();
-        SomethingClassTask8 sct3 = new SomethingClassTask8();
-
-
 
         System.out.println(helloWorld.s);
         System.out.println(initialized.a);
