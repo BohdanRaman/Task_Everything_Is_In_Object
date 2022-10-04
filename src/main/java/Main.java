@@ -20,8 +20,7 @@ public class Main {
         /* task 8*/
         OnlyOneInstanceClass oneInstanceClass = new OnlyOneInstanceClass();
         OnlyOneInstanceClass oneInstanceClass1 = new OnlyOneInstanceClass();
-        OnlyOneInstanceClass oneInstanceClass2 = new OnlyOneInstanceClass();
-        OnlyOneInstanceClass.number=10;
+        OnlyOneInstanceClass.number =10;
         System.out.println(OnlyOneInstanceClass.number);
 
         /* task 9*/
