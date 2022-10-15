@@ -5,8 +5,6 @@
  */
 
 public class OnlyOneInstanceClass {
-     static int number;
-
-
+     static int NUMBER;
 }
 

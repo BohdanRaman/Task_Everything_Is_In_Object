@@ -9,5 +9,7 @@
 
 public class PrintHelloWorld {
 
-    String s = "Hello World";
+    public static String getText(String str) {
+        return str;
+    }
 }

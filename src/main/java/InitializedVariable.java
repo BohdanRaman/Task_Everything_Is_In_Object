@@ -4,6 +4,6 @@
  */
 
 public class InitializedVariable {
-    int a = 1;
-    char c = 'c';
+    int a;
+    char c;
 }

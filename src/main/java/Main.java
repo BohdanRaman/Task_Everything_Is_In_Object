@@ -8,22 +8,26 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        /* task 2*/
-        PrintHelloWorld helloWorld = new PrintHelloWorld();
-        System.out.println(new Date());
-
         /* task 1*/
+        System.out.println("Task 1");
         InitializedVariable initialized = new InitializedVariable();
-        initialized.a = 100;
-        initialized.c = 'R';
+        System.out.println(initialized.a);
+        System.out.println(initialized.c);
+
+        /* task 2*/
+        System.out.println("Task 2");
+        System.out.println(PrintHelloWorld.getText("Hello World"));
+        System.out.println(new Date() + "\n");
 
         /* task 8*/
+        System.out.println("Task 8");
         OnlyOneInstanceClass oneInstanceClass = new OnlyOneInstanceClass();
         OnlyOneInstanceClass oneInstanceClass1 = new OnlyOneInstanceClass();
-        OnlyOneInstanceClass.number =10;
-        System.out.println(OnlyOneInstanceClass.number);
+        OnlyOneInstanceClass.NUMBER = 10;
+        System.out.println(OnlyOneInstanceClass.NUMBER);
 
         /* task 9*/
+        System.out.println("Task 9");
         AutoboxingForPrimitiveAndWrapperTypes primitiveAndWrapper = new AutoboxingForPrimitiveAndWrapperTypes();
         primitiveAndWrapper.aByte = -127;
         primitiveAndWrapper.aByteType = primitiveAndWrapper.aByte;
@@ -42,7 +46,6 @@ public class Main {
         primitiveAndWrapper.aBoolean = true;
         primitiveAndWrapper.aBooleanType = true;
 
-        System.out.println(helloWorld.s);
         System.out.println(initialized.a);
         System.out.println(initialized.c);
         System.out.println(primitiveAndWrapper.aByteType + "; " + primitiveAndWrapper.aShortType + "; " +
