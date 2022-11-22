@@ -21,10 +21,16 @@ public class Main {
 
         /* task 8*/
         System.out.println("Task 8");
-        OnlyOneInstanceClass oneInstanceClass = new OnlyOneInstanceClass();
-        OnlyOneInstanceClass oneInstanceClass1 = new OnlyOneInstanceClass();
-        OnlyOneInstanceClass.NUMBER = 10;
-        System.out.println(OnlyOneInstanceClass.NUMBER);
+        OnlyOneInstanceClassTask8 oneInstanceClass = new OnlyOneInstanceClassTask8();
+        OnlyOneInstanceClassTask8 oneInstanceClass1 = new OnlyOneInstanceClassTask8();
+        oneInstanceClass.setInstance(1);
+        oneInstanceClass.setInstanceName("First instance");
+        oneInstanceClass1.setInstance(2);
+        oneInstanceClass1.setInstanceName("Second instance");
+        OnlyOneInstanceClassTask8.number = 10;
+        System.out.println(OnlyOneInstanceClassTask8.number);
+        System.out.println("Number: " + oneInstanceClass.getInstance() + ". Name: " + oneInstanceClass.getInstanceName());
+        System.out.println("Number: " + oneInstanceClass1.getInstance() + ". Name: " + oneInstanceClass1.getInstanceName() + "\n");
 
         /* task 9*/
         System.out.println("Task 9");
