@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Task_Everything_Is_In_Object" options="--add-modules java.sql" />
+      <module name="Task_Everything_Is_In_Object" options="" />
     </option>
   </component>
 </project>
